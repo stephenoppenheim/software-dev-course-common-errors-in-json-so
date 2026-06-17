@@ -58,7 +58,7 @@ const invalidBookingJSON = `
     {
       "name": "Bob Smith",
       "age": undefined, // undefined is not valid data type for JSON, use null if this key value pair is needed and we don't have an age
-      "email": "bob.smith@example" // add .com/.net/.org/etc
+      "email": "bob.smith@example" // add .com/.net/.org/etc though this won't invalidate the JSON
     }
   ],
   "roomDetails": {
